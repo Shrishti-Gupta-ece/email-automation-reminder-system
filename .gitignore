@@ -7,3 +7,7 @@ __pycache__/
 .DS_Store
 logs/*.log
 outputs/previews/*.eml
+db/*.db
+db/*.db-*
+web/node_modules/
+web/.next/

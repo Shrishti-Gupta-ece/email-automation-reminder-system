@@ -1,0 +1,32 @@
+:root { --bg:#f6f7fb; --card:#fff; --text:#1c2230; --muted:#6b7385; --line:#e3e6ee; --blue:#2563eb; }
+@media (prefers-color-scheme: dark) {
+  :root { --bg:#0f1320; --card:#171c2c; --text:#e8ebf4; --muted:#98a1b8; --line:#272e45; }
+}
+* { box-sizing: border-box; }
+body { margin:0; background:var(--bg); color:var(--text); font-family: system-ui, Segoe UI, Roboto, sans-serif; }
+.wrap { max-width: 1100px; margin: 0 auto; padding: 24px 16px 60px; }
+h1 { margin: 0 0 4px; font-size: 24px; }
+.sub { color: var(--muted); margin-bottom: 16px; font-size: 14px; }
+.row { display:flex; gap:8px; flex-wrap:wrap; align-items:center; }
+.cards { display:grid; grid-template-columns: repeat(auto-fit, minmax(130px,1fr)); gap:10px; margin:16px 0; }
+.card { background:var(--card); border:1px solid var(--line); border-radius:10px; padding:12px 14px; }
+.card b { display:block; font-size:22px; }
+.card span { color:var(--muted); font-size:12px; }
+.tabs { display:flex; gap:6px; margin: 18px 0 12px; }
+.tab { padding:8px 14px; border:1px solid var(--line); border-radius:8px; background:var(--card); color:var(--text); cursor:pointer; }
+.tab.on { background:var(--blue); color:#fff; border-color:var(--blue); }
+button.btn { padding:8px 14px; border:0; border-radius:8px; background:var(--blue); color:#fff; cursor:pointer; }
+button.btn.alt { background:transparent; color:var(--text); border:1px solid var(--line); }
+button.link { background:none; border:0; color:#dc2626; cursor:pointer; }
+input, select, textarea { padding:8px 10px; border:1px solid var(--line); border-radius:8px; background:var(--card); color:var(--text); font:inherit; }
+textarea { width:100%; min-height:90px; }
+.panel { background:var(--card); border:1px solid var(--line); border-radius:10px; padding:14px; margin-bottom:14px; }
+table { width:100%; border-collapse:collapse; font-size:14px; }
+th, td { text-align:left; padding:8px 6px; border-bottom:1px solid var(--line); vertical-align:top; }
+th { color:var(--muted); font-weight:600; font-size:12px; text-transform:uppercase; }
+.table-wrap { overflow-x:auto; }
+.badge { padding:2px 8px; border-radius:99px; font-size:12px; color:#fff; background:#6b7385; }
+.badge.sent { background:#16a34a; } .badge.dry_run { background:#0891b2; }
+.badge.failed { background:#dc2626; } .badge.queued { background:#d97706; } .badge.skipped { background:#7c3aed; }
+.notice { padding:10px 12px; border-radius:8px; background:var(--card); border:1px solid var(--line); margin:10px 0; font-size:14px; }
+pre { white-space:pre-wrap; margin:6px 0 0; font-size:13px; }
