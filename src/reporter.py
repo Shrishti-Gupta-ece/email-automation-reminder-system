@@ -19,9 +19,16 @@ def write_row(row: dict):
 
 
 def already_done(status: str) -> set:
-    """Keys (reminder_id|occurrence) already completed - prevents duplicate sends."""
+    """Keys already handled: success, skipped, or failed 3+ times."""
     if not REPORT_FILE.exists():
         return set()
+    done, fails = set(), {}
     with open(REPORT_FILE, newline="", encoding="utf-8") as f:
-        return {f"{r['reminder_id']}|{r['occurrence']}" for r in csv.DictReader(f)
-                if r["status"] == status}
+        for r in csv.DictReader(f):
+            key = f"{r['reminder_id']}|{r['occurrence']}"
+            if r["status"] in (status, "SKIPPED"):
+                done.add(key)
+            elif r["status"] == "FAILED":
+                fails[key] = fails.get(key, 0) + 1
+    done.update(k for k, n in fails.items() if n >= 3)
+    return done
