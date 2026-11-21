@@ -1,0 +1,8 @@
+Subject: Meeting alert: {{title}} - {{event_date}} {{event_time}}
+
+Hello {{name}} ({{department}}),
+
+"{{title}}" is scheduled for {{event_date}} at {{event_time}}.
+
+See you there!
+Admin Team

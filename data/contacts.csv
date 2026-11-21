@@ -1,0 +1,7 @@
+name,email,department,unsubscribed
+Aarav Sharma,aarav.sharma@example.com,Python Batch,no
+Priya Verma,priya.verma@example.com,Python Batch,no
+Rohan Mehta,rohan.mehta@example.com,Sales,no
+Sneha Iyer,sneha.iyer@example.com,HR,no
+Karan Singh,karan.singh@example.com,Operations,yes
+Bad Email User,not-an-email,Admin,no

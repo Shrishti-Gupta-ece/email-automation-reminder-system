@@ -1,0 +1,13 @@
+Subject: Reminder: {{title}} on {{event_date}} at {{event_time}}
+
+Hi {{name}},
+
+This is a friendly reminder about "{{title}}".
+
+Date: {{event_date}}
+Time: {{event_time}}
+
+Please be on time and keep your laptop ready.
+
+Regards,
+Python Course Team

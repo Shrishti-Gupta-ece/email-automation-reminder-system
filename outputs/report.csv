@@ -1,0 +1,12 @@
+timestamp,reminder_id,occurrence,name,email,subject,status,mode,error
+2026-11-21 11:25:50,R001,2026-11-21 08:00,Aarav Sharma,aarav.sharma@example.com,Reminder: Python Live Class on 2026-11-22 at 7:00 PM,DRY_RUN,DRY_RUN,
+2026-11-21 11:25:50,R002,2026-11-21 08:00,Priya Verma,priya.verma@example.com,Reminder: Python Live Class on 2026-11-22 at 7:00 PM,DRY_RUN,DRY_RUN,
+2026-11-21 11:25:50,R003,2026-11-20 09:00,Rohan Mehta,rohan.mehta@example.com,Action needed: Invoice INV-1042 Payment due 2026-11-25,DRY_RUN,DRY_RUN,
+2026-11-21 11:25:50,R004,2026-11-16 09:00,Sneha Iyer,sneha.iyer@example.com,Meeting alert: Weekly HR Sync - 2026-11-23 11:00 AM,DRY_RUN,DRY_RUN,
+2026-11-21 11:25:50,R005,2026-11-21 08:00,Karan Singh,karan.singh@example.com,,SKIPPED,DRY_RUN,Unsubscribed
+2026-11-21 11:25:50,R006,2026-11-21 08:00,,ghost.user@example.com,,FAILED,DRY_RUN,Contact not found or invalid email
+2026-11-21 11:25:50,R007,2026-12-03 09:00,Aarav Sharma,aarav.sharma@example.com,Action needed: Project Submission Deadline due 2026-12-05,DRY_RUN,DRY_RUN,
+2026-11-21 11:25:50,R008,2026-11-19 20:00,Priya Verma,priya.verma@example.com,,FAILED,DRY_RUN,Template 'missing_template' not found in templates/
+2026-11-21 11:54:41,R005,2026-11-21 08:00,Karan Singh,karan.singh@example.com,,SKIPPED,DRY_RUN,Unsubscribed
+2026-11-21 11:54:41,R006,2026-11-21 08:00,,ghost.user@example.com,,FAILED,DRY_RUN,Contact not found or invalid email
+2026-11-21 11:54:41,R008,2026-11-20 20:00,Priya Verma,priya.verma@example.com,,FAILED,DRY_RUN,Template 'missing_template' not found in templates/

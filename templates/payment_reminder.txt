@@ -1,0 +1,10 @@
+Subject: Action needed: {{title}} due {{event_date}}
+
+Dear {{name}},
+
+This is a reminder that "{{title}}" is due on {{event_date}} by {{event_time}}.
+
+Please complete it before the deadline. Ignore this email if already done.
+
+Thank you,
+Accounts & Operations

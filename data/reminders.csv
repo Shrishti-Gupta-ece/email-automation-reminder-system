@@ -1,0 +1,9 @@
+reminder_id,email,title,event_date,event_time,send_at,template,recurrence
+R001,aarav.sharma@example.com,Python Live Class,2026-11-22,7:00 PM,2026-11-21 08:00,class_reminder,once
+R002,priya.verma@example.com,Python Live Class,2026-11-22,7:00 PM,2026-11-21 08:00,class_reminder,once
+R003,rohan.mehta@example.com,Invoice INV-1042 Payment,2026-11-25,5:00 PM,2026-11-20 09:00,payment_reminder,once
+R004,sneha.iyer@example.com,Weekly HR Sync,2026-11-23,11:00 AM,2026-11-16 09:00,meeting_alert,weekly
+R005,karan.singh@example.com,Team Standup,2026-11-22,10:00 AM,2026-11-21 08:00,meeting_alert,once
+R006,ghost.user@example.com,Webinar Reminder,2026-12-01,4:00 PM,2026-11-21 08:00,class_reminder,once
+R007,aarav.sharma@example.com,Project Submission Deadline,2026-12-05,11:59 PM,2026-12-03 09:00,payment_reminder,once
+R008,priya.verma@example.com,Daily Practice Task,2026-11-22,9:00 PM,2026-11-19 20:00,missing_template,daily
